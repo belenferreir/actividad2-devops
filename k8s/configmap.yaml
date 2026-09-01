@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: api-notas-config-v1
+data:
+  API_TITLE: "Notas API - v1"
+  HEALTH_MESSAGE: "La API de notas esta activa - v1"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: api-notas-config-v2
+data:
+  API_TITLE: "Notas API - v2"
+  HEALTH_MESSAGE: "La API de notas esta activa - v2"
